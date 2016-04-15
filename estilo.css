@@ -1,0 +1,93 @@
+/*
+	
+	Título: estilo.css
+	Autor: Guillermo Laseca Navarro
+	Fecha: 9 noviembre 2011
+	Descripción:
+		Página web en html con CSS.
+	
+	
+*/
+
+a:link, a:visited, a:active {text-decoration:underline;color:#fc3;}
+a:hover{text-decoration:underline;color:#fc3;font-style:italic;}
+
+#banner 
+{
+	margin: 10px;
+	width: 780px;
+	height: 150px;
+}
+
+body 
+{ 
+	font: .74em Verdana, Sans-Serif, Arial; 
+	background: url(imagenes/background.png) repeat; 
+}
+
+#cuerpo
+{
+	background: #800;
+	margin: 10px auto;
+	padding: 10px;
+	width: 800px;
+	border-radius: 20px;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	border-bottom-color: #610b21;
+	border-right-color: #610b21;
+	border-bottom-style: outset;
+	border-right-style: outset;
+} 
+
+h1
+{
+	margin: 10px;
+	font-family: Arial,Helvetica,sans-serif;
+	border-bottom-color: #fc3;
+	display: inline;
+}
+
+.logoder img 
+{ 
+	float: right; 
+	margin: 0 10px;
+	width: 78px;
+	height: 78px;
+}
+
+.logoizq img 
+{ 
+	float: left; 
+	margin: 0 10px;
+	width: 78px;
+	height: 78px;
+}
+
+#pie
+{
+	font-family: Arial,Helvetica,sans-serif;
+	color: #fff;
+	text-align: right;
+	font-weight: bolder;
+	margin: 0 10px;
+}
+
+.texto 
+{
+	background: #fff;
+	margin: 10px;
+	padding: 10px;
+	width: 760px;		
+	text-align: justify;
+	font-weight: bolder;
+	font-family: Georgia,Verdana,Arial;;
+	font-size: 120%;
+	border-radius: 10px;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	border-bottom-color: #000;
+	border-right-color: #000;
+	border-bottom-style: outset;
+	border-right-style: outset;
+}   
